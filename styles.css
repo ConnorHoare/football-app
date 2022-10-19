@@ -1,133 +1,133 @@
 html {
     background-color: rgb(11, 21, 34);
   }
-  
+
   body {
     background-color: rgb(11, 21, 34);
     font-family: 'Montserrat', sans-serif;
     /* margin: 16px; */
     /* font-family: 'Raleway', sans-serif; */
   }
-  
+
   /* Navbar */
   .navbar-nav {
     margin-top: 10px;
   }
-  
+
   .navbar-brand {
     margin-left: 120px;
   }
-  
+
   .logo {
     height: 80px;
     width: 80px;
   }
-  
+
   .logo-sign {
     height: 110px;
     width: 110px;
     margin: 0 auto;
   }
-  
+
   .signup-btn {
     background-color: rgb(225, 169, 25);
     color: white;
   }
-  
+
   .login-btn-home {
     background-color: rgb(60, 124, 221);
     color: white;
   }
-  
+
   /* NavBar */
-  
+
   /* Home page extras */
-  
+
   .game-btn {
     width: 100%;
-  
+
     height: 100px;
     font-size: 2rem;
     color: white;
     line-height: 90px;
   }
-  
+
   .public-image {
     width: 100%;
     height: 300px;
   }
-  
+
   .public-game-button {
       background-image: linear-gradient(to top right, rgb(60,124,221), rgb(31,78,155));
       margin-left: 16px
   }
-  
+
   .private-container {
     right: 16px;
   }
-  
+
   /* Home page extras */
-  
+
   /* Public games home */
-  
+
   .public-game-container {
     margin-top: 20px;
     margin-left: 16px;
     margin-right: 16px;
   }
-  
+
   .public-game-container a {
     text-decoration-color: white;
   }
-  
+
   .public-heading {
     display: inline-flex;
   }
-  
+
   .public-heading h1 {
     color: white;
   }
-  
+
   .public-heading a {
     font-size: 0.5rem;
     padding-top: 30px;
     padding-left: 20px;
     color: wheat;
   }
-  
+
   .card {
     height: 100%;
     background-color: rgb(34,37,48);
     color: white;
     border: solid 1px rgb(225,169,25);
   }
-  
+
   .player-prize {
     margin-top: 10%;
   }
-  
+
   .game-container {
     margin-top: 20px;
   }
-  
+
   /* Public games home */
-  
+
   /* Private games home */
-  
+
   .private-game-container {
     margin-top: 20px;
     margin-left: 16px;
     margin-right: 16px;
   }
-  
+
   .private-heading {
     margin-bottom: 10px;
   }
-  
+
   .private-heading h1 {
     color: white;
   }
-  
+
   .create-private-home {
     display: block;
     text-align: center;
@@ -135,13 +135,13 @@ html {
     border-radius: 5px;
     position: relative;
   }
-  
+
   a.create-private-home {
     text-decoration-color: white;
     background-image: linear-gradient(to top right, rgb(33,82,110), rgb(66,150,199));
     border: solid 1px white;
   }
-  
+
   a.create-private-home h1 {
     color: white;
     position: absolute;
@@ -149,7 +149,7 @@ html {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
   .join-private-home {
     display: block;
     text-align: center;
@@ -157,13 +157,13 @@ html {
     border-radius: 5px;
     position: relative;
   }
-  
+
   a.join-private-home {
     text-decoration-color: white;
     background-image: linear-gradient(to bottom right, rgb(31,78,155), rgb(60, 124, 221));
     border: solid 1px white;
   }
-  
+
   a.join-private-home h1 {
     color: white;
     position: absolute;
@@ -171,85 +171,87 @@ html {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
   .private-game-button {
       background-image: linear-gradient(to top right, rgb(33,82,110), rgb(66,150,199));
   }
-  
+
   /* Private games home */
-  
+
   /* Leaderboards Home */
   .leader-row {
     margin-bottom: 20px;
   }
-  
+
   .leaderboard-container {
     margin: 20px 16px;
   }
-  
+
   .leader-card {
       /* background-image: linear-gradient(to bottom left, rgb(118,77,184), rgb(181,153,227)); */
       border: solid 2px white;
   }
-  
+
   .leader-card-body {
     background-image: linear-gradient(to bottom left, rgb(118,77,184), rgb(181,153,227));
     border-radius: 15px;
     color: white;
   }
-  
+
   .rounded-circle {
     height: 100px;
     border: solid 2px white;
   }
-  
+
   .text-muted {
     color: white;
   }
-  
+
   .leader-heading {
     color: white;
   }
-  
+
   .leader-card {
     border-radius: 15px;
   }
-  
+
   .leader-profile-img {
     width: 100px;
   }
-  
+
+
+
   /* Login and registration page */
-  
+
   .login-header {
     color: white;
     margin-top: 80px;
     text-align: center;
     font-size: 1.5rem;
   }
-  
+
   .registration-text {
     color: white;
     font-size: 1rem;
   }
-  
+
   .no-account-text {
     font-size: 0.5rem;
   }
-  
+
   .no-account-text p {
     color: white;
   }
-  
+
   .signup-link {
     color: white;
     text-decoration: underline;
   }
-  
+
   .login-form-div {
     margin: 40px 15% 0;
   }
-  
+
   .login-btn {
     height: 44px;
     background-color: rgb(255, 169, 25);
@@ -260,26 +262,26 @@ html {
     font-weight: bold;
     margin: 20% 0 40px;
   }
-  
+
   /* Login and registration page */
-  
+
   /* Admin Page */
-  
+
   .game-admin-h1 {
     color: white;
     margin: 16px;
   }
-  
+
   .admin-form {
     margin: 16px;
   }
-  
+
   .admin-form label {
     color: white;
   }
-  
+
   /* Game Selected Page */
-  
+
   .game-name-container {
     margin: 16px;
     background-image: linear-gradient(to top right, rgb(49,52,63), rgb(121,121,121));
@@ -287,7 +289,7 @@ html {
     border-radius: 5px;
     position: relative;
   }
-  
+
   .game-name-title {
     text-align: center;
     color: white;
@@ -296,7 +298,7 @@ html {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
   .game-information-container {
       margin: 16px;
       border: 1px solid white;
@@ -305,7 +307,7 @@ html {
       position: relative;
       height: 40px;
   }
-  
+
   .buy-in-h6 {
       margin: 0px;
       color: white;
@@ -313,35 +315,105 @@ html {
       top: 50%;
       top: 25%;
   }
-  
+
   .register-btn-container {
     margin: 16px;
   }
-  
+
   .register-button {
       width: 50%;
       background-color: rgb(225,169,25);
       border: none;
   }
-  
+
   .register-button:hover {
     background-color: #ffe419;
   }
-  
-  
-  
+
+  /* tournament page */
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fixture-container {
+  max-width: 1024px;
+  margin: auto;
+  width: 95%;
+}
+
+.fixture-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+  grid-gap: 2em;
+}
+
+.fixture {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 1.5rem;
+  position: relative;
+}
+
+.vs {
+  display: inline-block;
+}
+
+.team-logo {
+  display: inline-block;
+  width: 50px;
+}
+
+.vs-h4 {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.team {
+  margin: auto 0;
+  width: 20%;
+}
+
+.date {
+  text-align: center;
+}
+
+.selection-button {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.selection-button:hover {
+  background-color: #74d17e;
+  color: white;
+}
+
+.team-name {
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
   @media screen and (max-width: 800px) {
     .login-form-div {
       margin-top: 60px;
       padding-left: 20px;
       padding-right: 20px;
     }
-  
+
     .form-control {
       height: 36px;
       border-radius: 5px;
     }
-  
+
     .login-btn {
       margin-top: 20%;
       height: 36px;
@@ -354,4 +426,3 @@ html {
       margin-bottom: 40px
     }
   }
-  
