@@ -1,0 +1,61 @@
+html {
+    background-color: rgb(11, 21, 34);
+  }
+
+  body {
+    background-color: rgb(11, 21, 34);
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 16px; */
+    /* font-family: 'Raleway', sans-serif; */
+  }
+
+/* Navbar */
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  margin-left: 120px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.logo-sign {
+  height: 110px;
+  width: 110px;
+  margin: 0 auto;
+}
+
+.signup-btn {
+  background-color: rgb(225, 169, 25);
+  color: white;
+}
+
+.login-btn-home {
+  background-color: rgb(60, 124, 221);
+  color: white;
+}
+
+/* NavBar */
+
+.fixture-form {
+  text-align: center;
+}
+
+.home-team p {
+  display: inline-block;
+  margin: 0;
+  color: white;
+}
+
+label {
+  color: white;
+  margin-top: 40px;
+}
+
+.submitButton {
+  margin: 20px;
+}

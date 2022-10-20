@@ -401,6 +401,12 @@ ul{
   font-weight: bolder;
 }
 
+.round-container h2{
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
 
   @media screen and (max-width: 800px) {
     .login-form-div {

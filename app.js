@@ -48,6 +48,8 @@ let fixtures = [
 
 // function to display the fixtures
 function displayFixtures() {
+  let roundNumber = document.getElementById('round-number');
+  roundNumber.innerText += ` ${round}`
   let div = document.createElement("DIV");
   div.classList.add("fixture-container");
   let ul = document.createElement("UL");

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last One Wins</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="fixtureAdmin.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navigation bar -->
+
+<nav class="navbar navbar-dark">
+    <button type="button" name="nav-button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a href="#" class="navbar-brand">
+      <img class="logo" src="images/logo2.png" alt="">
+    </a>
+
+    <div class="login-buttons">
+      <a href="/register" class="btn btn-md signup-btn">Sign Up</a>
+      <a href="/login" class="btn btn-md login-btn-home">Login</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Private</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Public</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Account</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Settings</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <form class="fixture-form" action="fixtureAdmin.html" method="post">
+    <label for="roundNumber">Round number</label>
+    <input id="roundNumber" type="text" name="roundNumber" value="">
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="fixture-1">
+      <label for="teams">Fixture</label>
+      <div class="home-team">
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+        <p>vs</p>
+        <select class="teams" name="teams">
+          <option value="afcBournemouth">AFC Bournemouth</option>
+          <option value="arsenal">Arsenal</option>
+          <option value="astonVilla">Aston Villa</option>
+          <option value="brentford">Brentford</option>
+          <option value="brighton">Brighton & Hove Albion</option>
+          <option value="chelsea">Chelsea</option>
+          <option value="crystalPalace">Crystal Palace</option>
+          <option value="everton">Everton</option>
+          <option value="fulham">Fulham</option>
+          <option value="leeds">Leeds United</option>
+          <option value="leicester">Leicester City</option>
+          <option value="liverpool">Liverpool</option>
+          <option value="manCity">Manchester City</option>
+          <option value="manU">Manchester Utd</option>
+          <option value="newcastle">Newcastle Utd</option>
+          <option value="nottsForest">Nottingham Forest</option>
+          <option value="southampton">Southampton</option>
+          <option value="spurs">Tottenham Hotspur</option>
+          <option value="westHam">West Ham Utd</option>
+          <option value="wolves">Wolverhampton Wanderers</option>
+        </select>
+      </div>
+    </div>
+
+    <button id="submitButton" class="submitButton" type="submit" name="button">Submit</button>
+  </form>
+
+  <script src="fixtureAdmin.js"></script>
+</body>
+</html>
