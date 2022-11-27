@@ -1,0 +1,124 @@
+{
+  "teams": [
+    {
+      "name": "AFC Bournemouth",
+      "stadium": "Vitality stadium",
+      "logo": "images/teams/Bournemouth2.png",
+      "abreviation": "BOU"
+    },
+    {
+      "name": "Arsenal",
+      "stadium": "Emirates stadium",
+      "logo": "images/teams/Arsenal.png",
+      "abreviation": "ARS"
+    },
+    {
+      "name": "Aston Villa",
+      "stadium": "Villa Park",
+      "logo": "images/teams/AstonVilla2.png",
+      "abreviation": "AVL"
+    },
+    {
+      "name": "Brentford",
+      "stadium": "Gtech Community stadium",
+      "logo": "images/teams/Brentford.png",
+      "abreviation": "BRE"
+    },
+    {
+      "name": "Brighton and Hove Albion",
+      "stadium": "Amex stadium",
+      "logo": "images/teams/Brighton.png",
+      "abreviation": "BRI"
+    },
+    {
+      "name": "Chelsea",
+      "stadium": "Stamford Bridge",
+      "logo": "images/teams/Chelsea.png",
+      "abreviation": "CHE"
+    },
+    {
+      "name": "Crystal Palace",
+      "stadium": "Selhurst Park",
+      "logo": "images/teams/CrystalPalace.png",
+      "abreviation": "CRY"
+    },
+    {
+      "name": "Everton",
+      "stadium": "Goodison Park",
+      "logo": "images/teams/Everton.png",
+      "abreviation": "EVE"
+    },
+    {
+      "name": "Fulham",
+      "stadium": "Craven Cottage",
+      "logo": "images/teams/Fulham.png",
+      "abreviation": "FUL"
+    },
+    {
+      "name": "Leeds United",
+      "stadium": "Elland Road",
+      "logo": "images/teams/Leeds.png",
+      "abreviation": "LEE"
+    },
+    {
+      "name": "Leicester City",
+      "stadium": "King Power stadium",
+      "logo": "images/teams/Leicester.png",
+      "abreviation": "LEI"
+    },
+    {
+      "name": "Liverpool",
+      "stadium": "Anfield",
+      "logo": "images/teams/Liverpool.png",
+      "abreviation": "LIV"
+    },
+    {
+      "name": "Manchester City",
+      "stadium": "Etihad stadium",
+      "logo": "images/teams/ManCity.png",
+      "abreviation": "MCI"
+    },
+    {
+      "name": "Manchester United",
+      "stadium": "Old Trafford",
+      "logo": "images/teams/ManUtd.png",
+      "abreviation": "MUN"
+    },
+    {
+      "name": "Newcastle United",
+      "stadium": "St James' Park",
+      "logo": "images/teams/Newcastle.png",
+      "abreviation": "NEW"
+    },
+    {
+      "name": "Nottingham Forest",
+      "stadium": "The City Ground",
+      "logo": "images/teams/NottsForest.png",
+      "abreviation": "NOT"
+    },
+    {
+      "name": "Southampton",
+      "stadium": "St Mary's stadium",
+      "logo": "images/teams/Southampton.png",
+      "abreviation": "SOT"
+    },
+    {
+      "name": "Tottenham Hotspur",
+      "stadium": "Tottenham Hotspur stadium",
+      "logo": "images/teams/Spurs.png",
+      "abreviation": "TOT"
+    },
+    {
+      "name": "West Ham United",
+      "stadium": "London stadium",
+      "logo": "images/teams/WestHam.png",
+      "abreviation": "WHU"
+    },
+    {
+      "name": "Wolverhampton Wanderers",
+      "stadium": "Molineux stadium",
+      "logo": "images/teams/Wolves.png",
+      "abreviation": "WOL"
+    }
+  ]
+}
